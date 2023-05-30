@@ -1,0 +1,29 @@
+footer{
+        background-color: darkslategray ;
+        padding: 100px;
+        h2{
+            color: white;
+        }
+        a{
+            color: darkorange;
+        }
+        .fa-heart{
+            color: darkorange;
+        }
+        ul{
+            li{
+                i{
+                    color: white;
+                    &:hover{
+                        color: darkorange;
+                    }
+                }
+            }
+        }
+        .icon{
+            background-color: darkorange;
+            position: relative;
+            right: 55px;
+            padding: 0 20px;
+        }
+}

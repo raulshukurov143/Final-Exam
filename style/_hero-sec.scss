@@ -1,0 +1,32 @@
+#hero-banner{
+    background-image: url(../img/header-bg\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center
+    
+    padding: 200px;
+    #hero-row{
+        .content{
+            p{
+                color: white;
+            }
+            h1{
+                color: white;
+            }
+            button{
+                padding: 10px 30px;
+                background-color: darkorange;
+                border: 1px solid transparent;
+                color: white;
+                &:hover{
+                    color:darkorange ;
+                    border-color: darkorange;
+                    background-color: transparent;
+
+                }
+            }
+
+        }
+
+    }
+}

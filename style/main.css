@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+header .header-top nav #first-ul li a {
+  text-decoration: none;
+}
+header .header-top nav #first-ul li a i {
+  color: white;
+}
+header .header-top nav #second-ul .call {
+  display: none;
+}
+header .header-top nav #second-ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s linear 0.5s;
+}
+header .header-top nav #second-ul li a:hover {
+  color: darkgoldenrod;
+}
+header .header-top nav #second-ul li .login {
+  background-color: darkorange;
+}
+@media only screen and (max-width: 767px) {
+  header .header-top nav #second-ul .call {
+    display: block;
+  }
+  header .header-top nav #second-ul .number {
+    display: none;
+  }
+}
+header .header-bottom {
+  padding: px;
+}
+header .header-bottom nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+header .header-bottom nav ul li .btn-group button {
+  background-color: transparent;
+  border-color: transparent;
+}
+header .header-bottom nav .fa-bars {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  header .header-bottom nav .fa-bars {
+    display: block;
+    color: white;
+    font-size: 20px;
+  }
+  header .header-bottom nav ul {
+    display: none;
+  }
+}
+
+#go-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  display: none;
+  padding: 10px 30px;
+}
+
+#hero-banner {
+  background-image: url(../img/header-bg\ \(3\).jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  padding: 200px;
+}
+#hero-banner #hero-row .content p {
+  color: white;
+}
+#hero-banner #hero-row .content h1 {
+  color: white;
+}
+#hero-banner #hero-row .content button {
+  padding: 10px 30px;
+  background-color: darkorange;
+  border: 1px solid transparent;
+  color: white;
+}
+#hero-banner #hero-row .content button:hover {
+  color: darkorange;
+  border-color: darkorange;
+  background-color: transparent;
+}
+
+#services {
+  padding: 100px;
+}
+#services .card {
+  padding: 20px;
+  transition: all 0.8s linear 0.2s;
+}
+#services .card:hover {
+  background-color: darkorange;
+}
+
+#Features {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+#Features .card {
+  padding: 20px;
+  transition: all 0.8s linear 0.5s;
+}
+#Features .card:hover {
+  background-color: darkorange;
+}
+#Features .card:hover p {
+  color: white;
+}
+#Features .card h3 {
+  font-size: 20px;
+}
+#Features .card h3 i {
+  font-size: 20px;
+}
+
+#latest {
+  padding: 100px;
+}
+#latest .card .img {
+  overflow: hidden;
+  height: 180px;
+}
+#latest .card .img img {
+  height: 180px;
+  transition: all 1s linear 0.5s;
+}
+#latest .card:hover a {
+  color: darkorange;
+}
+#latest .card:hover .img img {
+  transform: scale(1.2);
+}
+#latest .card a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+#latest .card span {
+  background-color: black;
+  color: white;
+  padding: 5 px;
+}
+
+footer {
+  background-color: darkslategray;
+  padding: 100px;
+}
+footer h2 {
+  color: white;
+}
+footer a {
+  color: darkorange;
+}
+footer .fa-heart {
+  color: darkorange;
+}
+footer ul li i {
+  color: white;
+}
+footer ul li i:hover {
+  color: darkorange;
+}
+footer .icon {
+  background-color: darkorange;
+  position: relative;
+  right: 55px;
+  padding: 0 20px;
+}/*# sourceMappingURL=main.css.map */

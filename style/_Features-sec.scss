@@ -1,0 +1,21 @@
+#Features{
+    padding: 10px;
+    background-color: #f1f1f1;
+  .card{
+    padding: 20px;
+    
+    &:hover{
+        background-color: darkorange;
+        p{
+            color: white;
+        }
+    }
+    h3{
+        font-size: 20px;
+        i{
+            font-size: 20px;
+        }
+    }
+  }
+    
+}

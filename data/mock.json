@@ -1,0 +1,39 @@
+{
+  "Services": [
+    {
+      "id": 1,
+      "img": "../img/s1.jpg",
+      "name": "Basic & Common Repairs",
+      "title": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "img": "../img/s3.jpg",
+      "name": "Preventive Maintenance",
+      "title": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.",
+      "price": 203
+    },
+    {
+      "id": 1,
+      "img": "../img/s1.jpg",
+      "name": "Basic & Common Repairs",
+      "title": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "img": "../img/s3.jpg",
+      "name": "Preventive Maintenance",
+      "title": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.",
+      "price": 203
+    },
+    {
+      "id": 1685433642392,
+      "img": "../img/s2.jpg",
+      "title": "police",
+      "name": "police",
+      "price": "120"
+    }
+  ]
+}

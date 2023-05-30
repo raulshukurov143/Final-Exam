@@ -1,0 +1,10 @@
+#services{
+    padding: 100px;
+    .card{
+        padding: 20px;
+        transition: all 0.8s linear 0.2s;
+        &:hover{
+            background-color: darkorange;
+        }
+    }
+}
